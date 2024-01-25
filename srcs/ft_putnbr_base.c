@@ -6,7 +6,7 @@
 /*   By: dapetros <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/25 20:54:52 by dapetros          #+#    #+#             */
-/*   Updated: 2024/01/25 21:29:03 by dapetros         ###   ########.fr       */
+/*   Updated: 2024/01/25 22:38:23 by dapetros         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,7 +32,7 @@ size_t	print_base(ssize_t num, char *base, size_t base_len)
 	}
 	while (i--)
 		count += ft_putchar(str[i]);
-	return count;
+	return (count);
 }
 
 size_t	ft_putnbr_base(ssize_t nbr, char *base, size_t base_len, char spf)
@@ -48,7 +48,7 @@ size_t	ft_putnbr_base(ssize_t nbr, char *base, size_t base_len, char spf)
 	else if (spf == 'p' && nbr == 0)
 	{
 		count += ft_putstr("0x0");
-		return count;
+		return (count);
 	}
 	else if (spf == 'p')
 		count += ft_putstr("0x");
