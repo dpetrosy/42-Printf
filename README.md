@@ -40,7 +40,8 @@
 
 For detailed information, refer to the [**subject of this project**](README_files/printf_subject.pdf).
 
-	🚀 TLDR: This project consists of coding a library that contains a simplified version of the printf function.
+	🚀 TLDR: This project consists of coding a library that contains a simplified 
+ 		 version of the printf function.
 
 ## 📑 Supported Specifiers
 
