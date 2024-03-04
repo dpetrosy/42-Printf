@@ -1,17 +1,17 @@
-NAME			= libftprintf.a
-CC				= cc
-CFLAGS			= -Wall -Wextra -Werror
-AR				= ar
-ARFLAGS			= -rcs
-INCLUDES_DIR	= includes
-INCLUDES_FLAG	= -I$(INCLUDES_DIR)
-INCLUDES		= $(INCLUDES_DIR)/ft_printf.h
-SRCS_DIR		= srcs
-SRCS			= $(SRCS_DIR)/ft_printf.c $(SRCS_DIR)/ft_putnbr_base.c $(SRCS_DIR)/str_utils.c
-OBJS_DIR		= objs
-OBJS			= $(patsubst $(SRCS_DIR)/%.c, $(OBJS_DIR)/%.o, $(SRCS))
-MKDIR			= mkdir -p
-RM				= rm -rf
+NAME			:= libftprintf.a
+CC				:= cc
+CFLAGS			:= -Wall -Wextra -Werror
+AR				:= ar
+ARFLAGS			:= -rcs
+INCLUDES_DIR	:= includes
+INCLUDES_FLAG	:= -I$(INCLUDES_DIR)
+INCLUDES		:= $(INCLUDES_DIR)/ft_printf.h
+SRCS_DIR		:= srcs
+SRCS			:= $(SRCS_DIR)/ft_printf.c $(SRCS_DIR)/ft_putnbr_base.c $(SRCS_DIR)/str_utils.c
+OBJS_DIR		:= objs
+OBJS			:= $(patsubst $(SRCS_DIR)/%.c, $(OBJS_DIR)/%.o, $(SRCS))
+MKDIR			:= mkdir -p
+RM				:= rm -rf
 
 all : $(NAME)
 
