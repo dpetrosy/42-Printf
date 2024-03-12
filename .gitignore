@@ -16,8 +16,15 @@
 *.gch
 *.pch
 
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+
 # Shared objects (inc. Windows DLLs)
 *.dll
+*.so
 *.so.*
 *.dylib
 
@@ -44,4 +51,5 @@ Module.symvers
 Mkfile.old
 dkms.conf
 
+.vscode
 .DS_Store
