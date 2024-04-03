@@ -43,6 +43,12 @@ For detailed information, refer to the [**subject of this project**](README_file
 	🚀 TLDR: This project consists of coding a library that contains a simplified version 
  		 of the printf function.
 
+> [!NOTE]  
+> Because of 42 School norm requirements:
+> * Each function can't have more than 25 lines of code.
+> * All variables are declared and aligned at the top of each function.
+> * Project should be created just with allowed functions otherwise it's cheating.
+
 ## 📑 Supported Specifiers
 
 These specifiers are supported by my printf implementation.
